@@ -13,8 +13,11 @@
         android:theme="@style/Theme.Journal"
         tools:targetApi="31">
         <activity
-            android:name=".auth.Regstration_Activity"
-            android:exported="false" />
+            android:name=".auth.Registration_Activity"
+            android:exported="true" >
+
+
+        </activity>
         <activity
             android:name=".auth.LogIn_Activity"
             android:exported="true">
@@ -23,6 +26,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".MainActivity"

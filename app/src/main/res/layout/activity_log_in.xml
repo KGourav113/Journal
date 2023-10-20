@@ -56,7 +56,7 @@
             android:layout_marginTop="@dimen/_20sdp"
             android:text="Login"
             android:textSize="@dimen/_25sdp"
-            android:id="@+id/LoginButton"/>
+            android:id="@+id/Login_Button"/>
         <TextView
             android:layout_width="@dimen/_300sdp"
             android:layout_height="wrap_content"
