@@ -44,7 +44,8 @@ public class LogIn_Activity extends AppCompatActivity {
                     @Override
                     public void onSuccess(AuthResult authResult) {
                         Toast.makeText(LogIn_Activity.this,"Success",Toast.LENGTH_SHORT).show();
-
+                        Intent intent = new Intent(LogIn_Activity.this, MainActivity.class);
+                        startActivity(intent);
                     }
                 });
             }
